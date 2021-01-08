@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#222f5b;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*i dont understand this stuffs*/ 
+}
+.nav{
+    background-color:#946b2d;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 100px;
+    min-width:100%;
+}
+.nav-sub{
+    background-color: 	#5d5d5d;
+    display: flex;
+    height: 50px;
+    min-width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+
+}
+.options{
+    background-color: #5d5d5d;
+    background-color: white;
+    max-width: 75vw;
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 25px;
+    border-radius:10px;
+    text-align:center;
+    border: 5px solid 	#946b2d;
+
+}
+.podium{
+    text-align: center;
+}
+.panel-header{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.panel-description{
+    text-align: center;
+    margin: 30px 0px;
+}
+/*.panel-host{
+    display:flex;
+    justify-content: center;
+}*/
+.panel-details{
+    padding: 20px;
+}
+.panel-button{
+    height: 45px;
+    border-radius: 5px;
+    border-style: 2px solid black;
+    background-color: #0e1a40;
+    background-color: #222f5b;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+.panel{
+    border-right: 1px solid	#946b2d;
+    padding:25px 50px;
+}
+.panel:last-child{
+    border-right:none;
+}
+
+.podium, .trophy, .pfp{
+    width: 270px;
+    height: 270px;
+}
+
+.nav-options li, .nav-options-login li{
+    display: inline-block;
+    margin: 0px 25px;
+    color: white;
+}
